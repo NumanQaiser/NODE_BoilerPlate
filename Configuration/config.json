@@ -1,0 +1,11 @@
+{
+    "development": {
+        "PORT": 4000,
+        "JWT_KEY":"node_bioler_plate",
+        "MONGO_DB":"mongodb://localhost:27017/"
+    },
+    "production":{
+        "PORT":8080,
+        "JWT_KEY":"node_bioler_plate"
+    }
+}
